@@ -1,20 +1,23 @@
 body {
-  --green: rgb(40, 153, 115);
-  --green-trans: rgba(40, 153, 115, 0.7);
-  --brown: rgb(141, 92, 72);
+  /* --green: rgb(40, 153, 115); */
+  --green: rgb(10 132 110);
+  --green-trans: rgba(10, 132, 110, 0.7);
+  /* --green-trans: rgba(40, 153, 115, 0.7); */
+  /* --brown: rgb(141, 92, 72); */
+  --brown: rgb(158 109 82);
   --white: #eee;
 
   /* --card-width: 300px;
   --card-height: 380px; */
-  --card-image-height: 260px;
+  --card-image-height: 180px;
   --card-info-height: 80px;
   --card-icon-width: 50%;
   --card-icon-left: 25%;
-  --card-icon-top: 50px;
+  --card-icon-top: 30px;
   --card-button-width: 80px;
   /* --card-info-height: calc(var(--card-height) - var(var(--card-width))); */
 
-  --icon-width: 120px;
+  --icon-width: 94px;
 
   --nav-height: 60px;
 
@@ -155,10 +158,11 @@ main h1 {
   /* padding: 0; */
   text-align: left;
   /* background-color: rgb(170, 170, 221); */
+  font-size: 13px;
 }
 .card-info *:nth-child(2),
 .card-info *:nth-child(3) {
-  font-size: smaller;
+  font-size: 11px;
 }
 .card-info *:nth-child(2) {
   font-weight: bolder;
@@ -173,6 +177,7 @@ main h1 {
   border-radius: 3px;
   border: none;
   display: none;
+  font-size: 12px;
 }
 
 .card .card-info div {
